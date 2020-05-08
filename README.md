@@ -1,6 +1,6 @@
 # nuxt-boilerplate
 
-> Pulsar nuxt PWA GraphQL boilerplate
+> Nuxt PWA GraphQL boilerplate
 
 ## Plugins
 
