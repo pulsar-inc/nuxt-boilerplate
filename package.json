@@ -13,6 +13,11 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "analyze": "nuxt build --a"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "python3 .linter/commit.py $HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.0-rc19",
     "@nuxtjs/dotenv": "^1.4.0",
@@ -28,6 +33,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
+    "husky": "^4.2.5",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
   }

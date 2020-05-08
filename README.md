@@ -14,6 +14,7 @@
 - `@nuxtjs/style-resources`
 - `sass-loader`
 - `node-sass`
+- `husky`
 
 ### Visual Studio Code
 
