@@ -2,7 +2,7 @@
 // Themes
 //
 
-#main-container.pastel-theme {
+#container.pastel-theme {
   --bg: #fce4ec;
   --bg-2: #ff9faf;
   --bg-3: #ff8095;
@@ -23,7 +23,7 @@
   --purple-3: #320b86;
 }
 
-#main-container.dark-theme {
+#container.dark-theme {
   --bg: #101015;
   --bg-2: #36363b;
   --bg-3: #5f5f68;
@@ -45,48 +45,14 @@
 }
 
 //
-// Variables
-//
-
-$primary: var(--primary);
-$primary-light: var(--primary-light);
-$primary-dark: var(--primary-dark);
-
-$purple-1: var(--purple-1);
-$purple-2: var(--purple-2);
-$purple-3: var(--purple-3);
-
-$yellow-1: #fff263;
-$yellow-2: #fbc02d;
-
-$green-1: var(--green-1);
-$green-2: var(--green-2);
-
-$white: #ffffff;
-$black: #000000;
-$grey: #d1d1d2;
-
-$fg: var(--fg);
-$fg-2: var(--fg-2);
-$fg-3: var(--fg-3);
-
-$bg: var(--bg);
-$bg-2: var(--bg-2);
-$bg-3: var(--bg-3);
-
-$radius: 10px;
-$radius-full: 99999px;
-
-$default-font: "Muli", -apple-system, "Ubuntu", "Arial", "Helvetica", sans-serif;
-
-//
 // Default rules
 //
 
 html,
 body,
 #__layout,
-#__nuxt {
+#__nuxt,
+#container {
   -webkit-font-smoothing: antialiased;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
