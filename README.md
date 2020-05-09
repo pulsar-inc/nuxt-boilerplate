@@ -29,9 +29,25 @@
 - `DEFAULT_ENDPOINT` ('' by default) GraphQL endpoint url
 - `SENTRY_DSN` (undefined by default) Sentry DSN
 
+## Commit linting
+
+By default commits messages must be prefixed by one of these keyword
+
+```
+[ADD]
+[FIX] or [FIX #1]
+[TEST]
+[MERGE]
+[UPDATE]
+[REMOVE] or [DELETE]
+[FEATURE]
+```
+
 ## Configuration
 
 Style can be configured via [main.scss](assets/scss/main.scss) variables.
+
+Commit linting can be changed in [.linter/commit.py](.linter/commit.py).
 
 ## Build Setup
 
